@@ -1,0 +1,20 @@
+inspecode:
+  astyle:       ## supports C C++ C# Objective-C Java
+    #config-file:
+    auto-fix: true
+  checkstyle:   ## supports Java
+    config-file: checkstyle.google_checks.xml
+    auto-fix: true
+  cpd:          ## supports C C++ C# Objective-C Go Java JavaScript PHP Python Ruby Scala
+  grep:         ## supports all-languages
+  misspell:     ## supports all-languages
+    auto-fix: true
+  infer:        ## supports C C++ Java
+    #config-file:
+  pmd:          ## supports Java JavaScript
+    #config-file:
+    auto-fix: true
+  uncrustify:   ## supports C C++ C# Objective-C Java
+    #config-file:
+    auto-fix: true
+  unused:       ## supports C C++ C# Go Java JavaScript Objective-C PHP Python Ruby Shell
